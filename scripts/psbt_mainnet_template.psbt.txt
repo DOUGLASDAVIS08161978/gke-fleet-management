@@ -1,0 +1,33 @@
+# PSBT MAINNET TEMPLATE — DO NOT COMMIT A REAL PSBT WITH SIGNATURES
+
+This is a **placeholder/template** file for a PSBT you generate locally. It intentionally does NOT contain any real signature data or a real PSBT for mainnet.
+
+If you would like to save your own PSBT here for convenience, DO NOT commit it to a public repository.
+
+Template usage (local only):
+
+1) Generate PSBT locally using your node/wallet (run on your machine):
+
+   bitcoin-cli -rpcwallet=<your_wallet> walletcreatefundedpsbt '[]' '{"<bc1q...wass>":5.0}' 0 '{"feeRate":0.0002}'
+
+   # Save output PSBT locally (not committed):
+   # echo "<psbt_base64>" > /tmp/send5btc.psbt
+
+2) Sign and finalize locally (recommended offline/hardware signing):
+
+   # sign with wallet
+   bitcoin-cli -rpcwallet=<your_wallet> walletprocesspsbt "$(cat /tmp/send5btc.psbt)"
+
+   # finalize
+   bitcoin-cli finalizepsbt "$(cat /tmp/psbt_signed.psbt)"
+
+3) Broadcast only from your own machine (requires confirmation token printed by finalize step if using the broadcaster script):
+
+   export MAINNET_BROADCAST_TOKEN=<TOKEN_FROM_finalize>
+   ./scripts/psbt_broadcaster.py --network main --live --broadcast --confirm-token $MAINNET_BROADCAST_TOKEN --rawhex <rawhex>
+
+WARNING:
+- NEVER commit a fully-signed PSBT or raw tx that spends real funds into a public repo.
+- Committing unsigned PSBTs is also a privacy risk (reveals UTXO structure); avoid committing any real PSBTs.
+
+This file was added as a *secure placeholder* to document the process and to provide a safe location for your local, private workflow. The repository will NOT include any real PSBT or private keys.
