@@ -1,0 +1,515 @@
+{
+  "system_info": {
+    "version": "4.0.0",
+    "codename": "ULTIMATE_EDITION",
+    "timestamp": "2026-01-02T23:32:14.249083"
+  },
+  "statistics": {
+    "system_version": "4.0.0 - ULTIMATE_EDITION",
+    "uptime": "1.40s",
+    "statistics": {
+      "uptime_seconds": 1.397923469543457,
+      "total_tasks_executed": 14,
+      "total_web_requests": 4,
+      "total_api_calls": 6,
+      "total_browser_actions": 12,
+      "cache_hit_rate": "0.00%",
+      "success_rate": "100.00%",
+      "total_bytes_processed": 0,
+      "total_screenshots": 0,
+      "total_errors": 0,
+      "total_retries": 0
+    },
+    "performance": {
+      "tasks_per_second": 10.014751910844538,
+      "average_task_time": 0.09985276630946568
+    }
+  },
+  "task_results": [
+    {
+      "url": "https://example.com",
+      "status": "success",
+      "data": {
+        "title": "Page Title from https://example.com",
+        "content": "Scraped content from https://example.com",
+        "links": [
+          "https://example.com/page1",
+          "https://example.com/page2"
+        ],
+        "timestamp": "2026-01-02T23:32:12.953257"
+      }
+    },
+    {
+      "url": "https://demo-site.com",
+      "status": "success",
+      "data": {
+        "title": "Page Title from https://demo-site.com",
+        "content": "Scraped content from https://demo-site.com",
+        "links": [
+          "https://demo-site.com/page1",
+          "https://demo-site.com/page2"
+        ],
+        "timestamp": "2026-01-02T23:32:13.053878"
+      }
+    },
+    {
+      "url": "https://test-page.org",
+      "status": "success",
+      "data": {
+        "title": "Page Title from https://test-page.org",
+        "content": "Scraped content from https://test-page.org",
+        "links": [
+          "https://test-page.org/page1",
+          "https://test-page.org/page2"
+        ],
+        "timestamp": "2026-01-02T23:32:13.154773"
+      }
+    },
+    {
+      "url": "https://api.example.com/users",
+      "method": "GET",
+      "status": "success",
+      "response": {
+        "status_code": 200,
+        "data": {
+          "result": "API call successful",
+          "timestamp": "2026-01-02T23:32:13.207177"
+        }
+      }
+    },
+    {
+      "url": "https://api.example.com/products",
+      "method": "GET",
+      "status": "success",
+      "response": {
+        "status_code": 200,
+        "data": {
+          "result": "API call successful",
+          "timestamp": "2026-01-02T23:32:13.257768"
+        }
+      }
+    },
+    {
+      "url": "https://api.example.com/orders",
+      "method": "POST",
+      "status": "success",
+      "response": {
+        "status_code": 200,
+        "data": {
+          "result": "API call successful",
+          "timestamp": "2026-01-02T23:32:13.309269"
+        }
+      }
+    },
+    {
+      "url": "https://api.example.com/analytics",
+      "method": "GET",
+      "status": "success",
+      "response": {
+        "status_code": 200,
+        "data": {
+          "result": "API call successful",
+          "timestamp": "2026-01-02T23:32:13.360715"
+        }
+      }
+    },
+    {
+      "workflow": "browser_automation",
+      "total_actions": 9,
+      "results": [
+        {
+          "action": "navigate:https://example.com/login",
+          "status": "success",
+          "timestamp": "2026-01-02T23:32:13.412028"
+        },
+        {
+          "action": "type:username:testuser@example.com",
+          "status": "success",
+          "timestamp": "2026-01-02T23:32:13.462496"
+        },
+        {
+          "action": "type:password:SecurePass123!",
+          "status": "success",
+          "timestamp": "2026-01-02T23:32:13.513044"
+        },
+        {
+          "action": "click:login_button",
+          "status": "success",
+          "timestamp": "2026-01-02T23:32:13.563669"
+        },
+        {
+          "action": "screenshot:after_login.png",
+          "status": "success",
+          "timestamp": "2026-01-02T23:32:13.614357"
+        },
+        {
+          "action": "navigate:https://example.com/dashboard",
+          "status": "success",
+          "timestamp": "2026-01-02T23:32:13.664791"
+        },
+        {
+          "action": "click:export_button",
+          "status": "success",
+          "timestamp": "2026-01-02T23:32:13.715095"
+        },
+        {
+          "action": "wait:2000",
+          "status": "success",
+          "timestamp": "2026-01-02T23:32:13.765524"
+        },
+        {
+          "action": "screenshot:dashboard.png",
+          "status": "success",
+          "timestamp": "2026-01-02T23:32:13.815761"
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "operations": [
+        "validate",
+        "transform",
+        "enrich",
+        "export"
+      ],
+      "input_size": 105,
+      "output_size": 105,
+      "status": "success"
+    },
+    {
+      "url": "https://data-source.com",
+      "status": "success",
+      "data": {
+        "title": "Page Title from https://data-source.com",
+        "content": "Scraped content from https://data-source.com",
+        "links": [
+          "https://data-source.com/page1",
+          "https://data-source.com/page2"
+        ],
+        "timestamp": "2026-01-02T23:32:13.960821"
+      }
+    },
+    {
+      "url": "https://api.process-data.com/analyze",
+      "method": "POST",
+      "status": "success",
+      "response": {
+        "status_code": 200,
+        "data": {
+          "result": "API call successful",
+          "timestamp": "2026-01-02T23:32:14.012097"
+        }
+      }
+    },
+    {
+      "workflow": "browser_automation",
+      "total_actions": 3,
+      "results": [
+        {
+          "action": "navigate:https://dashboard.com",
+          "status": "success",
+          "timestamp": "2026-01-02T23:32:14.063622"
+        },
+        {
+          "action": "click:refresh",
+          "status": "success",
+          "timestamp": "2026-01-02T23:32:14.113848"
+        },
+        {
+          "action": "screenshot:final.png",
+          "status": "success",
+          "timestamp": "2026-01-02T23:32:14.164355"
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "operations": [
+        "aggregate",
+        "summarize",
+        "report"
+      ],
+      "input_size": 23,
+      "output_size": 23,
+      "status": "success"
+    },
+    {
+      "url": "https://api.notifications.com/send",
+      "method": "POST",
+      "status": "success",
+      "response": {
+        "status_code": 200,
+        "data": {
+          "result": "API call successful",
+          "timestamp": "2026-01-02T23:32:14.248181"
+        }
+      }
+    }
+  ],
+  "workflow_history": [
+    {
+      "workflow_id": "multi_site_scrape",
+      "total_tasks": 3,
+      "completed_tasks": 3,
+      "execution_time": 0.3026731014251709,
+      "results": [
+        {
+          "url": "https://example.com",
+          "status": "success",
+          "data": {
+            "title": "Page Title from https://example.com",
+            "content": "Scraped content from https://example.com",
+            "links": [
+              "https://example.com/page1",
+              "https://example.com/page2"
+            ],
+            "timestamp": "2026-01-02T23:32:12.953257"
+          }
+        },
+        {
+          "url": "https://demo-site.com",
+          "status": "success",
+          "data": {
+            "title": "Page Title from https://demo-site.com",
+            "content": "Scraped content from https://demo-site.com",
+            "links": [
+              "https://demo-site.com/page1",
+              "https://demo-site.com/page2"
+            ],
+            "timestamp": "2026-01-02T23:32:13.053878"
+          }
+        },
+        {
+          "url": "https://test-page.org",
+          "status": "success",
+          "data": {
+            "title": "Page Title from https://test-page.org",
+            "content": "Scraped content from https://test-page.org",
+            "links": [
+              "https://test-page.org/page1",
+              "https://test-page.org/page2"
+            ],
+            "timestamp": "2026-01-02T23:32:13.154773"
+          }
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "workflow_id": "api_integration",
+      "total_tasks": 4,
+      "completed_tasks": 4,
+      "execution_time": 0.20509839057922363,
+      "results": [
+        {
+          "url": "https://api.example.com/users",
+          "method": "GET",
+          "status": "success",
+          "response": {
+            "status_code": 200,
+            "data": {
+              "result": "API call successful",
+              "timestamp": "2026-01-02T23:32:13.207177"
+            }
+          }
+        },
+        {
+          "url": "https://api.example.com/products",
+          "method": "GET",
+          "status": "success",
+          "response": {
+            "status_code": 200,
+            "data": {
+              "result": "API call successful",
+              "timestamp": "2026-01-02T23:32:13.257768"
+            }
+          }
+        },
+        {
+          "url": "https://api.example.com/orders",
+          "method": "POST",
+          "status": "success",
+          "response": {
+            "status_code": 200,
+            "data": {
+              "result": "API call successful",
+              "timestamp": "2026-01-02T23:32:13.309269"
+            }
+          }
+        },
+        {
+          "url": "https://api.example.com/analytics",
+          "method": "GET",
+          "status": "success",
+          "response": {
+            "status_code": 200,
+            "data": {
+              "result": "API call successful",
+              "timestamp": "2026-01-02T23:32:13.360715"
+            }
+          }
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "workflow_id": "browser_automation",
+      "total_tasks": 1,
+      "completed_tasks": 1,
+      "execution_time": 0.45446181297302246,
+      "results": [
+        {
+          "workflow": "browser_automation",
+          "total_actions": 9,
+          "results": [
+            {
+              "action": "navigate:https://example.com/login",
+              "status": "success",
+              "timestamp": "2026-01-02T23:32:13.412028"
+            },
+            {
+              "action": "type:username:testuser@example.com",
+              "status": "success",
+              "timestamp": "2026-01-02T23:32:13.462496"
+            },
+            {
+              "action": "type:password:SecurePass123!",
+              "status": "success",
+              "timestamp": "2026-01-02T23:32:13.513044"
+            },
+            {
+              "action": "click:login_button",
+              "status": "success",
+              "timestamp": "2026-01-02T23:32:13.563669"
+            },
+            {
+              "action": "screenshot:after_login.png",
+              "status": "success",
+              "timestamp": "2026-01-02T23:32:13.614357"
+            },
+            {
+              "action": "navigate:https://example.com/dashboard",
+              "status": "success",
+              "timestamp": "2026-01-02T23:32:13.664791"
+            },
+            {
+              "action": "click:export_button",
+              "status": "success",
+              "timestamp": "2026-01-02T23:32:13.715095"
+            },
+            {
+              "action": "wait:2000",
+              "status": "success",
+              "timestamp": "2026-01-02T23:32:13.765524"
+            },
+            {
+              "action": "screenshot:dashboard.png",
+              "status": "success",
+              "timestamp": "2026-01-02T23:32:13.815761"
+            }
+          ],
+          "status": "success"
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "workflow_id": "data_processing",
+      "total_tasks": 1,
+      "completed_tasks": 1,
+      "execution_time": 0.043725013732910156,
+      "results": [
+        {
+          "operations": [
+            "validate",
+            "transform",
+            "enrich",
+            "export"
+          ],
+          "input_size": 105,
+          "output_size": 105,
+          "status": "success"
+        }
+      ],
+      "status": "success"
+    },
+    {
+      "workflow_id": "mega_combined_workflow",
+      "total_tasks": 5,
+      "completed_tasks": 5,
+      "execution_time": 0.38768887519836426,
+      "results": [
+        {
+          "url": "https://data-source.com",
+          "status": "success",
+          "data": {
+            "title": "Page Title from https://data-source.com",
+            "content": "Scraped content from https://data-source.com",
+            "links": [
+              "https://data-source.com/page1",
+              "https://data-source.com/page2"
+            ],
+            "timestamp": "2026-01-02T23:32:13.960821"
+          }
+        },
+        {
+          "url": "https://api.process-data.com/analyze",
+          "method": "POST",
+          "status": "success",
+          "response": {
+            "status_code": 200,
+            "data": {
+              "result": "API call successful",
+              "timestamp": "2026-01-02T23:32:14.012097"
+            }
+          }
+        },
+        {
+          "workflow": "browser_automation",
+          "total_actions": 3,
+          "results": [
+            {
+              "action": "navigate:https://dashboard.com",
+              "status": "success",
+              "timestamp": "2026-01-02T23:32:14.063622"
+            },
+            {
+              "action": "click:refresh",
+              "status": "success",
+              "timestamp": "2026-01-02T23:32:14.113848"
+            },
+            {
+              "action": "screenshot:final.png",
+              "status": "success",
+              "timestamp": "2026-01-02T23:32:14.164355"
+            }
+          ],
+          "status": "success"
+        },
+        {
+          "operations": [
+            "aggregate",
+            "summarize",
+            "report"
+          ],
+          "input_size": 23,
+          "output_size": 23,
+          "status": "success"
+        },
+        {
+          "url": "https://api.notifications.com/send",
+          "method": "POST",
+          "status": "success",
+          "response": {
+            "status_code": 200,
+            "data": {
+              "result": "API call successful",
+              "timestamp": "2026-01-02T23:32:14.248181"
+            }
+          }
+        }
+      ],
+      "status": "success"
+    }
+  ]
+}

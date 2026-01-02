@@ -1,0 +1,469 @@
+{
+  "results": [
+    {
+      "action_id": "action_0",
+      "action_type": "navigate",
+      "status": "success",
+      "data": {
+        "url": "https://example.com/login"
+      },
+      "error": null,
+      "execution_time": 1.1023826599121094
+    },
+    {
+      "action_id": "action_1",
+      "action_type": "screenshot",
+      "status": "success",
+      "data": {
+        "screenshot": "01_login_page.png"
+      },
+      "error": null,
+      "execution_time": 0.5007615089416504
+    },
+    {
+      "action_id": "action_2",
+      "action_type": "type_text",
+      "status": "success",
+      "data": {
+        "typed": "testuser@example.com"
+      },
+      "error": null,
+      "execution_time": 0.3009617328643799
+    },
+    {
+      "action_id": "action_3",
+      "action_type": "type_text",
+      "status": "success",
+      "data": {
+        "typed": "SecurePassword123!"
+      },
+      "error": null,
+      "execution_time": 0.3013577461242676
+    },
+    {
+      "action_id": "action_4",
+      "action_type": "click",
+      "status": "success",
+      "data": {
+        "clicked": true
+      },
+      "error": null,
+      "execution_time": 0.5004746913909912
+    },
+    {
+      "action_id": "action_5",
+      "action_type": "screenshot",
+      "status": "success",
+      "data": {
+        "screenshot": "02_form_filled.png"
+      },
+      "error": null,
+      "execution_time": 0.5011284351348877
+    },
+    {
+      "action_id": "action_6",
+      "action_type": "click",
+      "status": "success",
+      "data": {
+        "clicked": true
+      },
+      "error": null,
+      "execution_time": 2.0009384155273438
+    },
+    {
+      "action_id": "action_7",
+      "action_type": "screenshot",
+      "status": "success",
+      "data": {
+        "screenshot": "03_after_submit.png"
+      },
+      "error": null,
+      "execution_time": 0.5009963512420654
+    },
+    {
+      "action_id": "action_0",
+      "action_type": "navigate",
+      "status": "success",
+      "data": {
+        "url": "https://example.com/products"
+      },
+      "error": null,
+      "execution_time": 1.102332592010498
+    },
+    {
+      "action_id": "action_1",
+      "action_type": "wait",
+      "status": "success",
+      "data": {
+        "waited": 1.0
+      },
+      "error": null,
+      "execution_time": 1.501079797744751
+    },
+    {
+      "action_id": "action_2",
+      "action_type": "get_text",
+      "status": "success",
+      "data": {
+        "text": "Welcome to Test Page"
+      },
+      "error": null,
+      "execution_time": 0.5002806186676025
+    },
+    {
+      "action_id": "action_3",
+      "action_type": "get_text",
+      "status": "success",
+      "data": {
+        "text": "Welcome to Test Page"
+      },
+      "error": null,
+      "execution_time": 0.5008096694946289
+    },
+    {
+      "action_id": "action_4",
+      "action_type": "click",
+      "status": "failed",
+      "data": null,
+      "error": "Element not found: About",
+      "execution_time": 14.504212856292725
+    },
+    {
+      "action_id": "action_5",
+      "action_type": "screenshot",
+      "status": "success",
+      "data": {
+        "screenshot": "products_page.png"
+      },
+      "error": null,
+      "execution_time": 0.5009348392486572
+    },
+    {
+      "action_id": "action_0",
+      "action_type": "navigate",
+      "status": "success",
+      "data": {
+        "url": "https://example.com"
+      },
+      "error": null,
+      "execution_time": 1.1007845401763916
+    },
+    {
+      "action_id": "action_1",
+      "action_type": "execute_js",
+      "status": "success",
+      "data": {
+        "result": {
+          "scrolled": true
+        }
+      },
+      "error": null,
+      "execution_time": 0.5007936954498291
+    },
+    {
+      "action_id": "action_2",
+      "action_type": "wait",
+      "status": "success",
+      "data": {
+        "waited": 0.5
+      },
+      "error": null,
+      "execution_time": 1.001091480255127
+    },
+    {
+      "action_id": "action_3",
+      "action_type": "execute_js",
+      "status": "success",
+      "data": {
+        "result": "Page: https://example.com"
+      },
+      "error": null,
+      "execution_time": 0.5010576248168945
+    },
+    {
+      "action_id": "action_4",
+      "action_type": "execute_js",
+      "status": "success",
+      "data": {
+        "result": {
+          "result": "executed"
+        }
+      },
+      "error": null,
+      "execution_time": 0.5004911422729492
+    },
+    {
+      "action_id": "action_5",
+      "action_type": "screenshot",
+      "status": "success",
+      "data": {
+        "screenshot": "after_js_execution.png"
+      },
+      "error": null,
+      "execution_time": 0.5009467601776123
+    },
+    {
+      "action_id": "action_0",
+      "action_type": "navigate",
+      "status": "success",
+      "data": {
+        "url": "https://example.com/register"
+      },
+      "error": null,
+      "execution_time": 1.101402997970581
+    },
+    {
+      "action_id": "action_1",
+      "action_type": "type_text",
+      "status": "success",
+      "data": {
+        "typed": "newuser"
+      },
+      "error": null,
+      "execution_time": 0.3009033203125
+    },
+    {
+      "action_id": "action_2",
+      "action_type": "type_text",
+      "status": "success",
+      "data": {
+        "typed": "newuser@example.com"
+      },
+      "error": null,
+      "execution_time": 0.30032825469970703
+    },
+    {
+      "action_id": "action_3",
+      "action_type": "type_text",
+      "status": "success",
+      "data": {
+        "typed": "ComplexPassword123!"
+      },
+      "error": null,
+      "execution_time": 0.3010082244873047
+    },
+    {
+      "action_id": "action_4",
+      "action_type": "click",
+      "status": "failed",
+      "data": null,
+      "error": "Element not found: terms-checkbox",
+      "execution_time": 14.504226446151733
+    },
+    {
+      "action_id": "action_5",
+      "action_type": "screenshot",
+      "status": "success",
+      "data": {
+        "screenshot": "registration_filled.png"
+      },
+      "error": null,
+      "execution_time": 0.5012550354003906
+    },
+    {
+      "action_id": "action_6",
+      "action_type": "submit_form",
+      "status": "failed",
+      "data": null,
+      "error": "Form not found: registration-form",
+      "execution_time": 14.504618883132935
+    },
+    {
+      "action_id": "action_7",
+      "action_type": "wait",
+      "status": "success",
+      "data": {
+        "waited": 2.0
+      },
+      "error": null,
+      "execution_time": 2.50246000289917
+    },
+    {
+      "action_id": "action_8",
+      "action_type": "get_text",
+      "status": "failed",
+      "data": null,
+      "error": "Element not found: success-message",
+      "execution_time": 14.502650499343872
+    },
+    {
+      "action_id": "fill_username",
+      "action_type": "type_text",
+      "status": "success",
+      "data": {
+        "typed": "john_doe"
+      },
+      "error": null,
+      "execution_time": 0.2010643482208252
+    },
+    {
+      "action_id": "fill_email",
+      "action_type": "type_text",
+      "status": "success",
+      "data": {
+        "typed": "john@example.com"
+      },
+      "error": null,
+      "execution_time": 0.20140457153320312
+    },
+    {
+      "action_id": "fill_message",
+      "action_type": "type_text",
+      "status": "success",
+      "data": {
+        "typed": "This is an automated test message!"
+      },
+      "error": null,
+      "execution_time": 0.20086956024169922
+    }
+  ],
+  "browser_state": {
+    "current_url": "https://example.com/register",
+    "page_title": "Page: https://example.com/register",
+    "screenshots": [
+      {
+        "filename": "01_login_page.png",
+        "url": "https://example.com/login",
+        "timestamp": 1767396553.8940392
+      },
+      {
+        "filename": "02_form_filled.png",
+        "url": "https://example.com/login",
+        "timestamp": 1767396555.4982386
+      },
+      {
+        "filename": "03_after_submit.png",
+        "url": "https://example.com/login",
+        "timestamp": 1767396558.000573
+      },
+      {
+        "filename": "error_action_4.png",
+        "url": "https://example.com/products",
+        "timestamp": 1767396576.1105163
+      },
+      {
+        "filename": "products_page.png",
+        "url": "https://example.com/products",
+        "timestamp": 1767396576.6114776
+      },
+      {
+        "filename": "after_js_execution.png",
+        "url": "https://example.com",
+        "timestamp": 1767396580.717701
+      },
+      {
+        "filename": "error_action_4.png",
+        "url": "https://example.com/register",
+        "timestamp": 1767396597.2264094
+      },
+      {
+        "filename": "registration_filled.png",
+        "url": "https://example.com/register",
+        "timestamp": 1767396597.7275474
+      },
+      {
+        "filename": "error_action_6.png",
+        "url": "https://example.com/register",
+        "timestamp": 1767396612.233001
+      },
+      {
+        "filename": "error_action_8.png",
+        "url": "https://example.com/register",
+        "timestamp": 1767396629.2385094
+      }
+    ],
+    "action_history": [
+      {
+        "action": "navigate",
+        "url": "https://example.com/login",
+        "timestamp": 1767396552.7914424
+      },
+      {
+        "action": "screenshot",
+        "filename": "01_login_page.png",
+        "timestamp": 1767396553.8940403
+      },
+      {
+        "action": "screenshot",
+        "filename": "02_form_filled.png",
+        "timestamp": 1767396555.4982395
+      },
+      {
+        "action": "screenshot",
+        "filename": "03_after_submit.png",
+        "timestamp": 1767396558.0005739
+      },
+      {
+        "action": "navigate",
+        "url": "https://example.com/products",
+        "timestamp": 1767396558.502006
+      },
+      {
+        "action": "screenshot",
+        "filename": "error_action_4.png",
+        "timestamp": 1767396576.1105175
+      },
+      {
+        "action": "screenshot",
+        "filename": "products_page.png",
+        "timestamp": 1767396576.611479
+      },
+      {
+        "action": "navigate",
+        "url": "https://example.com",
+        "timestamp": 1767396577.1127298
+      },
+      {
+        "action": "execute_js",
+        "script": "window.scrollTo(0, document.body.scrollHeight);",
+        "timestamp": 1767396578.2136934
+      },
+      {
+        "action": "execute_js",
+        "script": "return document.title;",
+        "timestamp": 1767396579.7158935
+      },
+      {
+        "action": "execute_js",
+        "script": "localStorage.setItem('user_preference', 'dark_mode');",
+        "timestamp": 1767396580.2170627
+      },
+      {
+        "action": "screenshot",
+        "filename": "after_js_execution.png",
+        "timestamp": 1767396580.7177022
+      },
+      {
+        "action": "navigate",
+        "url": "https://example.com/register",
+        "timestamp": 1767396581.218949
+      },
+      {
+        "action": "screenshot",
+        "filename": "error_action_4.png",
+        "timestamp": 1767396597.2264113
+      },
+      {
+        "action": "screenshot",
+        "filename": "registration_filled.png",
+        "timestamp": 1767396597.7275486
+      },
+      {
+        "action": "screenshot",
+        "filename": "error_action_6.png",
+        "timestamp": 1767396612.2330022
+      },
+      {
+        "action": "screenshot",
+        "filename": "error_action_8.png",
+        "timestamp": 1767396629.2385108
+      }
+    ]
+  },
+  "summary": {
+    "total_actions": 32,
+    "successful": 28,
+    "failed": 4,
+    "total_time": 77.54600930213928
+  }
+}
