@@ -3,3 +3,9 @@
 *.tfstate
 *.tfstate.*
 .terraform*
+
+# Python automation suite generated files
+scripts/*.db
+scripts/*.log
+scripts/cache.db
+scripts/nexus_*.log
